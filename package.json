@@ -6,7 +6,9 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "dev": "parcel index.html"
+    "dev": "parcel index.html",
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy --prod"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/allanmosesfernandes/Eleats#readme",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "sass": "^1.26.10"
   }
 }
