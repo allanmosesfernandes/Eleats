@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bad+Script&display=swap');
+
+
+p {
+    margin: 0;
+}
+
+.cabin-sketch {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.archivo {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.monty {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bad-script {
+    font-family: 'Bad Script', cursive;
+    font-size: 3rem;
+
+}
+
+.custom-shape-divider-bottom-1597128351 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1597128351 svg {
+    position: relative;
+    display: block;
+    width: calc(122% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1597128351 .shape-fill {
+    fill: #FFFFFF;
+}

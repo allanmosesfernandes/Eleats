@@ -1,0 +1,63 @@
+// @import './base.scss';
+@import './typography.scss';
+
+.first-fold {
+    background-image: url(../images/pav-bhaji.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blink_me {
+    color: #f1faee;
+    border: 5px solid #e40006c2;
+    width: 400px;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 20px;
+    background: #00000073;
+
+
+    // animation: blinker 2s linear infinite;
+  }
+  
+
+  .montytext {
+      @extend .monty;
+      font-size: 1rem;
+  }
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .custom-shape-divider-bottom-1597123871 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    height: 90vh;
+
+}
+
+.custom-shape-divider-bottom-1597123871 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1597123871 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
