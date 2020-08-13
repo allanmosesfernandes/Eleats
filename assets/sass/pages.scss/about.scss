@@ -1,0 +1,32 @@
+@import '../typography.scss';
+
+.about {
+    padding: 20px;
+    h1 {
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        text-align: right;
+        position: relative;
+    }
+
+    h1::after {
+        content: "";
+        position: absolute;
+        width: 88px;
+        height: 5px;
+        background:#e40006;
+        /* top: 0; */
+        bottom: -25px;
+        right: 0;
+    }
+}
+
+
+.aboutText {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 60px;
+}
