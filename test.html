@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Click">
+        <h1>Number of Clicks = <span id="lol">0</span></h1>
+    </div>
+
+    <style>
+        .Click{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 90vh;
+        }
+    </style>
+    <script>
+        // const lol = document.querySelector('#lol');
+        // let counter = 0;
+        // document.addEventListener('click', () => {
+        //     counter++;
+        //     lol.innerHTML = `${counter}`;
+        //     console.log(counter);
+
+        // })
+        // let x = function () {
+        //     console.log('I am called from inside a function');
+        // }
+
+        // let y = function (callback) {
+        //     console.log('Y pehle');
+        //     callback();
+        // }
+
+        // y(x);
+
+
+
+        ///=========Closures===========////
+
+        // let f;
+
+        // if(true) {
+        // let i = 1;
+        // f = () => {
+        // console.log(i);
+        // }
+        // }
+
+        // console.dir(f);
+        
+
+        // for(let i = 0; i < 3; i++) {
+        //     setTimeout(() => {
+        //         console.log(i);
+        //     },1000)
+        // };
+
+
+        // let name = 'Allan';
+
+        // function printName () {
+        //     console.log(name);
+        // }
+
+        // printName();
+
+        // name = 'Riya';
+
+        // printName()
+
+        function outerFunction(outerVariable) {
+            console.log('jadu');
+            return function innerFunction(innerVariable) {
+                console.log('Outer Variable:' + outerVariable);
+                console.log('Inner Variable:' + innerVariable);
+            }
+        }
+
+        const newFunc = outerFunction('outside')
+        // newFunc('inside')
+    </script>
+</body>
+</html>
