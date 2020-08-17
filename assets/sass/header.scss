@@ -1,15 +1,92 @@
 nav {
-    height: 10vh;
-    background-color: #fff;
-    width: 100%;
     display: flex;
-    padding: 20px;
+    justify-self: start;
     align-items: center;
-    box-shadow: 0px 10px 10px 0px rgba(158,158,158,1);
+    background: #fff;
+    padding: 20px;
+    
+    .logo {
+        width: 50px;
+        margin: auto;
+    }
 }
 
-.logo {
-    width: 60px;
-    height: 40px;
+.dishMonth {
+    display: flex;
+    position: relative;
+    background-image: url(../images/foodphotos/IMG-20200803-WA0022.jpg);
+    background-position: top;
+    background-size: cover;
+    color: #fff;
+    padding: 40px 20px;
+    .left {
+        z-index: 99;
+        width: 50%;
+        .title {
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+        }
+
+        .name {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            position: relative;
+            font-size: 20px;
+        }
+
+        .name::after {
+            content: "";
+            background-color: #e40006;
+            width: 64px;
+            height: 10px;
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+            border-radius: 20px;
+        }
+
+        .dishDetails {
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-size: 10px;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+
+
+    .right {
+        z-index: 99;
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
 }
 
+.dishMonth::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #00000087;
+    background-size: cover;
+}
+
+.checkOut {
+    background-color: #fff;
+    color: #e40006;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+    border: 0;
+    width: 120px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
