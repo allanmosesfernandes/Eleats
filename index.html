@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./assets/sass/main.scss">
     <meta name="theme-color" content="#E40006">
     <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
 
 </head>
 
@@ -32,7 +35,8 @@
                 <p class="title">Dish of the month</p>
                 <p class="name">Hawai Veg Mix Rice</p>
                 <p class="dishDetails">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio numquam quae nihil quo veniam, rem perferendis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio numquam quae nihil quo veniam, rem
+                    perferendis.
                 </p>
 
                 <button class="checkOut">Check it out</button>
@@ -44,81 +48,283 @@
     </section>
 
     <section class="home-menu">
-        <div class="menu-title">
-            Menu
-        </div>
-        <div class="menu-sub-title">
-            All our food is made from only the freshed ingredients.
-        </div>
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">Slide 1</div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
-              <div class="swiper-slide">Slide 4</div>
-              <div class="swiper-slide">Slide 5</div>
-              <div class="swiper-slide">Slide 6</div>
-              <div class="swiper-slide">Slide 7</div>
-              <div class="swiper-slide">Slide 8</div>
-              <div class="swiper-slide">Slide 9</div>
-              <div class="swiper-slide">Slide 10</div>
-            </div>
-            <!-- Add Arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-          </div>
-        <div class="">
-            <!-- Additional required wrapper -->
-        <div class="">
-                <!-- Slides -->
-        <div class="menu-slider">
-            <div class="menu-box">
-                <img src="./assets/images/foodphotos/IMG-20200803-WA0020.jpg" class="menu-img">
-                <button class="menu-Btn">View Menu &nbsp;<span><img src="./assets/images/iconmonstr-arrow-right-thin.svg"></span></button>
-                <div class="item">
-                    <p class="item-name">Fusion Rice</p>
-                    <p class="item-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic exercitationem voluptatibus quo. Minima unde voluptates nemo incidunt molestiae rerum.</p>
-                </div>
-            </div>
-        </div>
-        <div class="menu-slider">
-            <div class="menu-box">
-                <img src="./assets/images/foodphotos/IMG-20200803-WA0020.jpg" class="menu-img">
-                <button class="menu-Btn">View Menu &nbsp;<span><img src="./assets/images/iconmonstr-arrow-right-thin.svg"></span></button>
-                <div class="item">
-                    <p class="item-name">Fusion Rice</p>
-                    <p class="item-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic exercitationem voluptatibus quo. Minima unde voluptates nemo incidunt molestiae rerum.</p>
-                </div>
-            </div>
+        <div class="find-food">
+            <img src="./assets/images/new-design/menuCard.svg">
+            <p class="easy">Easy way to find <span style="color: red">tasty food</span> </p>
         </div>
 
-        <div class="menu-slider">
-            <div class="menu-box">
-                <img src="./assets/images/foodphotos/IMG-20200803-WA0020.jpg" class="menu-img">
-                <button class="menu-Btn">View Menu &nbsp;<span><img src="./assets/images/iconmonstr-arrow-right-thin.svg"></span></button>
-                <div class="item">
-                    <p class="item-name">Fusion Rice</p>
-                    <p class="item-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic exercitationem voluptatibus quo. Minima unde voluptates nemo incidunt molestiae rerum.</p>
+        <div class="menu-domains">
+            <div class="menu-Box" id="breakDiv">
+                <div class="img-wrapper">
+                    <img src="./assets/images/new-design/breakfast.svg" />
                 </div>
+                <p>Breakfast</p>
             </div>
-        </div>
+            <div class="menu-Box" id="juiceDiv">
+                <div class="img-wrapper">
+                    <img src="./assets/images/new-design/breakfast.svg" />
+                </div>
+                <p>Juices</p>
+            </div>
+            <div class="menu-Box">
+                <div class="img-wrapper">
+                    <img src="./assets/images/new-design/breakfast.svg" />
+                </div>
+                <p>Snacks</p>
+            </div>
+
+            <div class="menu-Box">
+                <div class="img-wrapper">
+                    <img src="./assets/images/new-design/breakfast.svg" />
+                </div>
+                <p>Snacks</p>
+            </div>
+
         </div>
 
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-    </div>
+
+        <!-- <div class="menu-slider" id="breakfast">
+
+        </div> -->
+
+        <!-- Swiper -->
+        <div class="flow showFlap" id="breakfast">
+            <div class="swiper-slide">
+                <div class="main-box">
+                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+
+                    <h3>Pita Bread</h3>
+                    <div class="ratings">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+
+                    <div class="see-more">
+                        See More
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="main-box">
+                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+
+                    <h3>Item Name</h3>
+                    <div class="ratings">
+                        ⭐⭐⭐⭐⭐
+
+                    </div>
+
+                    <div class="see-more">
+                        See More
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="main-box">
+                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+
+                    <h3>Item Name</h3>
+                    <div class="ratings">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+
+                    <div class="see-more">
+                        See More
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="main-box">
+                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+
+                    <h3>Item Name</h3>
+                    <div class="ratings">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+
+                    <div class="see-more">
+                        See More
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="main-box">
+                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+
+                    <h3>Item Name</h3>
+                    <div class="ratings">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+
+                    <div class="see-more">
+                        See More
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="main-box">
+                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+
+                    <h3>Item Name</h3>
+                    <div class="ratings">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+
+                    <div class="see-more">
+                        See More
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--Breakfast-->
+
+        <div class="flow" id="juicyDiv">
+            <div class="swiper-slide">
+                <div class="main-box">
+                    <img src="./assets/images/foodphotos/pineapple.jpg" alt="" class="boxImg">
+
+                    <h3>Pineapple</h3>
+                    <div class="ratings">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+
+                    <div class="see-more">
+                        See More
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="main-box">
+                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+
+                    <h3>Item Name</h3>
+                    <div class="ratings">
+                        ⭐⭐⭐⭐⭐
+
+                    </div>
+
+                    <div class="see-more">
+                        See More
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="main-box">
+                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+
+                    <h3>Item Name</h3>
+                    <div class="ratings">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+
+                    <div class="see-more">
+                        See More
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="main-box">
+                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+
+                    <h3>Item Name</h3>
+                    <div class="ratings">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+
+                    <div class="see-more">
+                        See More
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="main-box">
+                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+
+                    <h3>Item Name</h3>
+                    <div class="ratings">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+
+                    <div class="see-more">
+                        See More
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="main-box">
+                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+
+                    <h3>Item Name</h3>
+                    <div class="ratings">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+
+                    <div class="see-more">
+                        See More
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </section>
+
+
+    <section class="catering" style="background-image: url('assets/images/new-design/catering-bg.png');">
+        <p>
+            Party Planning?<br>
+            Tell us about it! We would love to serve at your events!
+        </p>
+
+        <button class="checkOut">Know More</button>
+
+    </section> 
     <section class="about">
         <h1>About EL</h1>
         <p class="aboutText">
-            Ell is a cloud kitchen with easy takeaway or delivery ordering system and  fast service. Our goal is to deliver hygienic, delicious , healthy food and refreshments wherever you need it : be it at your home, workplace or in gym. <br><br>
-            We mix emotions and fresh ingredients in our food , energy and protein in our refreshments and care in our packaging and service. Our drinks and dishes will recharge you for the rest of the day and allow you to live it to the fullest.
-            We know that you are worthy of the best service, so the best is what we provide.        
-        
+            Ell is a cloud kitchen with easy takeaway or delivery ordering system and fast service. Our goal is to
+            deliver hygienic, delicious , healthy food and refreshments wherever you need it : be it at your home,
+            workplace or in gym. <br><br>
+            We mix emotions and fresh ingredients in our food , energy and protein in our refreshments and care in our
+            packaging and service. Our drinks and dishes will recharge you for the rest of the day and allow you to live
+            it to the fullest.
+            We know that you are worthy of the best service, so the best is what we provide.
+
         </p>
     </section>
 
 
+    <!-- Swiper JS -->
+    <script src="./main.js"></script>
+    <!-- Initialize Swiper -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.center').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
 
 </body>
 

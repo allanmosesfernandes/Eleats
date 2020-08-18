@@ -1,18 +1,17 @@
-// import Swiper JS
-import Swiper from 'swiper';
-// import Swiper styles
-import 'swiper/swiper-bundle.css';
 
-// const swiper = new Swiper(...);
-// var mySwiper = new Swiper('.swiper-container', {
-//     // Optional parameters
-    
-//     // Navigation arrows
-//     navigation: {
-//       nextEl: '.swiper-button-next',
-//       prevEl: '.swiper-button-prev',
-//     },
-  
-//     // And if we need scrollbar
+const juiceCircle = document.getElementById('juiceDiv');
+const breakCircle = document.getElementById('breakDiv');
+const juicyDiv = document.getElementById('juicyDiv');
+const breakyDiv = document.getElementById('breakfast');
 
-//   })
+juiceCircle.addEventListener('click', () => {
+    breakyDiv.classList.remove('showFlap');
+    juicyDiv.classList.add('showFlap');
+})
+
+breakCircle.addEventListener('click', () => {
+    juicyDiv.classList.remove('showFlap');
+    breakyDiv.classList.add('showFlap');
+})
+
+
