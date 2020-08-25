@@ -1,17 +1,13 @@
 
-const juiceCircle = document.getElementById('juiceDiv');
-const breakCircle = document.getElementById('breakDiv');
-const juicyDiv = document.getElementById('juicyDiv');
-const breakyDiv = document.getElementById('breakfast');
-
-juiceCircle.addEventListener('click', () => {
-    breakyDiv.classList.remove('showFlap');
-    juicyDiv.classList.add('showFlap');
+const toggler = document.querySelector('.menu__toggler');
+const menu    = document.querySelector('.menu');
+const body = document.getElementsByTagName("BODY")[0];
+/*
+ * Toggles on and off the 'active' class on the menu
+ * and the toggler button.
+ */
+toggler.addEventListener('click', () => {
+  toggler.classList.toggle('active');
+  body.classList.toggle('overflowLock');
+  menu.classList.toggle('active');
 })
-
-breakCircle.addEventListener('click', () => {
-    juicyDiv.classList.remove('showFlap');
-    breakyDiv.classList.add('showFlap');
-})
-
-

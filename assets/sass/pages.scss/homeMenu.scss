@@ -37,6 +37,16 @@ $el-red: #e40006;
     }
 }
 
+.checkOut {
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+.see-more {
+    font-family: "Montserrat", sans-serif;
+
+}
 .menu-domains {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

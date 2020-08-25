@@ -21,11 +21,18 @@
 <body>
     <header>
         <nav>
-            <img class="hamburger" src="./assets/images/new-design/menu (2).png">
-            <img class="logo" src="./assets/images/new-design/logo-final.png">
-        </nav>
-    </header>
+            <!-- <img class="hamburger" src="./assets/images/new-design/menu (2).png"> -->
+            <div class="menu__toggler"><span></span></div>
 
+            <a href="index.html">
+                <img class="logo" src="./assets/images/new-design/logo-final.png">
+            </a>        </nav>
+    </header>
+    <div class="menu">
+        <a href="./about.html">About</a>
+        <p>Menu</p>
+        <p>Contact</p>
+      </div>
     <section class="first-fold">
         <div class="announcement">
             <img src="./assets/images/new-design/megaphone.svg" />
@@ -35,16 +42,15 @@
         <div class="dishMonth">
             <div class="left">
                 <p class="title">Dish of the month</p>
-                <p class="name">Hawai Veg Mix Rice</p>
+                <p class="name">Modak</p>
                 <p class="dishDetails">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio numquam quae nihil quo veniam, rem
-                    perferendis.
+                    It's Ganpati season and what better way to pay homage to Lord Ganesha than our tasty modaks
                 </p>
 
-                <button class="checkOut">Check it out</button>
+                <button class="checkOut"><a href="menu.html">Check it out</a></button>
             </div>
             <div class="right">
-                <img src="./assets/images/foodphotos/IMG-20200803-WA0022.jpg" />
+                <img src="./assets/images/foodphotos/dishofthemonth.jpg" />
             </div>
         </div>
     </section>
@@ -54,48 +60,13 @@
             <img src="./assets/images/new-design/menuCard.svg">
             <p class="easy">Lots to explore <span style="color: red">less to spend.</span> </p>
         </div>
-<!-- 
-        <div class="menu-domains">
-            <div class="menu-Box" id="breakDiv">
-                <div class="img-wrapper">
-                    <img src="./assets/images/new-design/breakfast.svg" />
-                </div>
-                <p>Breakfast</p>
-            </div>
-            <div class="menu-Box" id="juiceDiv">
-                <div class="img-wrapper">
-                    <img src="./assets/images/new-design/breakfast.svg" />
-                </div>
-                <p>Juices</p>
-            </div>
-            <div class="menu-Box">
-                <div class="img-wrapper">
-                    <img src="./assets/images/new-design/breakfast.svg" />
-                </div>
-                <p>Snacks</p>
-            </div>
 
-            <div class="menu-Box">
-                <div class="img-wrapper">
-                    <img src="./assets/images/new-design/breakfast.svg" />
-                </div>
-                <p>Snacks</p>
-            </div>
-
-        </div> -->
-
-
-        <!-- <div class="menu-slider" id="breakfast">
-
-        </div> -->
-
-        <!-- Swiper -->
         <div class="flow showFlap" id="breakfast">
             <div class="swiper-slide">
                 <div class="main-box">
-                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+                    <img src="./assets/images/new-design/burgers.jpg" alt="" class="boxImg">
 
-                    <h3>Pita Bread</h3>
+                    <h3>Burgers</h3>
                     <div class="ratings">
                         ⭐⭐⭐⭐⭐
                     </div>
@@ -107,9 +78,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="main-box">
-                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+                    <img src="./assets/images/new-design/biryani.jpg" alt="" class="boxImg">
 
-                    <h3>Veg Manchurian</h3>
+                    <h3>Biryani</h3>
                     <div class="ratings">
                         ⭐⭐⭐⭐⭐
 
@@ -122,9 +93,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="main-box">
-                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+                    <img src="./assets/images/new-design/momo.jpg" alt="" class="boxImg">
 
-                    <h3>Masala Idli</h3>
+                    <h3>Momo</h3>
                     <div class="ratings">
                         ⭐⭐⭐⭐⭐
                     </div>
@@ -136,9 +107,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="main-box">
-                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+                    <img src="./assets/images/new-design/desserts.jpg" alt="" class="boxImg">
 
-                    <h3>Item Name</h3>
+                    <h3>Desserts</h3>
                     <div class="ratings">
                         ⭐⭐⭐⭐⭐
                     </div>
@@ -150,9 +121,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="main-box">
-                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
+                    <img src="./assets/images/foodphotos/rolls.jpg" alt="" class="boxImg">
 
-                    <h3>Item Name</h3>
+                    <h3>Rolls</h3>
                     <div class="ratings">
                         ⭐⭐⭐⭐⭐
                     </div>
@@ -162,112 +133,11 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide">
-                <div class="main-box">
-                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
 
-                    <h3>Item Name</h3>
-                    <div class="ratings">
-                        ⭐⭐⭐⭐⭐
-                    </div>
-
-                    <div class="see-more">
-                        See More
-                    </div>
-                </div>
-            </div>
 
         </div>
         <!--Breakfast-->
 
-        <div class="flow" id="juicyDiv">
-            <div class="swiper-slide">
-                <div class="main-box">
-                    <img src="./assets/images/foodphotos/pineapple.jpg" alt="" class="boxImg">
-
-                    <h3>Pineapple</h3>
-                    <div class="ratings">
-                        ⭐⭐⭐⭐⭐
-                    </div>
-
-                    <div class="see-more">
-                        See More
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="main-box">
-                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
-
-                    <h3>Item Name</h3>
-                    <div class="ratings">
-                        ⭐⭐⭐⭐⭐
-
-                    </div>
-
-                    <div class="see-more">
-                        See More
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="main-box">
-                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
-
-                    <h3>Item Name</h3>
-                    <div class="ratings">
-                        ⭐⭐⭐⭐⭐
-                    </div>
-
-                    <div class="see-more">
-                        See More
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="main-box">
-                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
-
-                    <h3>Item Name</h3>
-                    <div class="ratings">
-                        ⭐⭐⭐⭐⭐
-                    </div>
-
-                    <div class="see-more">
-                        See More
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="main-box">
-                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
-
-                    <h3>Item Name</h3>
-                    <div class="ratings">
-                        ⭐⭐⭐⭐⭐
-                    </div>
-
-                    <div class="see-more">
-                        See More
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="main-box">
-                    <img src="./assets/images/foodphotos/IMG-20200803-WA0013.jpg" alt="" class="boxImg">
-
-                    <h3>Item Name</h3>
-                    <div class="ratings">
-                        ⭐⭐⭐⭐⭐
-                    </div>
-
-                    <div class="see-more">
-                        See More
-                    </div>
-                </div>
-            </div>
-
-        </div>
     </section>
 
 
@@ -292,7 +162,7 @@
             <div class="slider-wrappy">
                 <div class="testimonial-box">
                     <p>
-                        Vegans this is the best place for the healthy food.
+                        Vegans this is the best place for healthy food.
                         Reasonable price and good quality of food.
                         At this generation quality is Wat we looking for us to keep our health good.
                         Cheers to the place and looking for new food which can makes us happy.
@@ -304,7 +174,6 @@
                     <div class="customer-right">
 
                         <h4>Vimal Thakursingh</h4>
-
                         ⭐⭐⭐⭐⭐
                     </div>
                 </div>
@@ -485,10 +354,11 @@
                 {
                     breakpoint: 480,
                     settings: {
-                        arrows: true,
+                        arrows: false,
+                        centerMode: true,
                         autoplay: true,
                         dots: true,
-                        centerPadding: '40px',
+                        centerPadding: '0px',
                         slidesToShow: 1
                     }
                 }

@@ -5,6 +5,9 @@ nav {
     background: #fff;
     padding: 20px;
     
+    a {
+        margin: auto;
+    }
     .logo {
         width: 50px;
         margin: auto;
@@ -14,7 +17,7 @@ nav {
 .dishMonth {
     display: flex;
     position: relative;
-    background-image: url(../images/foodphotos/IMG-20200803-WA0022.jpg);
+    background-image: url("../images/foodphotos/dishofthemonth.jpg");
     background-position: top;
     background-size: cover;
     color: #fff;
@@ -26,7 +29,7 @@ nav {
             text-transform: uppercase;
             font-family: 'Montserrat', sans-serif;
             font-weight: 400;
-            font-size: 12px;
+            font-size: 10px;
         }
 
         .name {
