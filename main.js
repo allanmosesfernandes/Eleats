@@ -11,3 +11,11 @@ toggler.addEventListener('click', () => {
   body.classList.toggle('overflowLock');
   menu.classList.toggle('active');
 })
+
+
+///====instagram on fiyah====///////
+
+const insta = document.querySelector('.instaWrapper');
+const instaKids = Array.from(insta.children);
+
+instaKids.forEach((img,i) => i%2 === 0 ? img.classList.add('biggie') : img.classList.add('smallie'))

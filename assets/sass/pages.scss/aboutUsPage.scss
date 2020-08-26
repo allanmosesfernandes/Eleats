@@ -138,3 +138,43 @@
 
     }
 }
+
+
+//---------Instagram Slider---------///
+.instagramSlider {
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+
+    span {
+        img {
+            width: 32px;
+            height: 32px;
+            margin-right: 10px;
+        }
+    }
+}
+.instaWrapper {
+    display: flex;
+    overflow: scroll;
+    margin-top: 30px;
+
+    img {
+        margin-right: 20px;
+        object-fit: cover;
+        margin-right: 20px;
+    border: 3px solid #e40006;
+    padding: 10px;
+    }
+
+}
+  
+.biggie {
+    width: 200px;
+    height: 200px;
+}
+
+.smallie {  
+    width: 150px;
+    height: 150px;
+    margin-top: 200px;
+}
