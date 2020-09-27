@@ -3,8 +3,9 @@ nav {
     justify-self: start;
     align-items: center;
     background: #fff;
-    padding: 20px;
-    
+    padding: 10px 0;
+    box-shadow: 0px 4px 5px 0px rgba(148,142,148,1);
+    border-radius: 108px;
     a {
         margin: auto;
     }
@@ -13,11 +14,21 @@ nav {
         margin: auto;
     }
 }
+header {
+    // z-index: 999;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // margin-top: 10px;
+}
+
 
 .dishMonth {
     display: flex;
     position: relative;
-    background-image: url("../images/foodphotos/dishofthemonth.jpg");
+    background-image: url("../images/biryani.jpg");
     background-position: top;
     background-size: cover;
     color: #fff;
@@ -92,4 +103,13 @@ nav {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
+}
+
+
+
+.see-more {
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 }
