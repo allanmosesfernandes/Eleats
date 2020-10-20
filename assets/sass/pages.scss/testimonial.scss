@@ -17,7 +17,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: $el-red;
+    background-color: #E63E2C;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -45,7 +45,7 @@
     margin-left: -50px;
     width: 0;
     height: 0;
-    border-top: solid 15px $el-red;
+    border-top: solid 15px #E63E2C;
     border-left: solid 15px transparent;
     border-right: solid 15px transparent;
 }
@@ -127,3 +127,6 @@
         margin: 0;
     }
 }
+
+
+
