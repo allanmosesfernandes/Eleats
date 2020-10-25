@@ -188,3 +188,47 @@ $el-red: #e40006;
 .highlight {
     border-bottom: 2px solid #e40006a8;
 }
+
+
+.veg-nonVeg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.veggie {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    img {
+        width: 50px;
+    }
+}
+.non-veggie {
+    img {
+        width: 40px;
+    }
+    @extend .veggie;
+}
+
+
+.four-menu {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+.buttonStyle {
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #000 !important;
+    font-size: 18px !important;
+}
+
+.card-body {
+    h4 {
+        margin: 20px 0;
+    }
+}

@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HNZWC61N7P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HNZWC61N7P');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ElEats</title>
@@ -15,7 +23,7 @@
         integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
         crossorigin="anonymous" />
 
-
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
@@ -63,177 +71,50 @@
                 Explore your favorite Veg dishes all <span class="highlight">at ₹60</span>
             </p>
         </div>
-        <img src="./assets/images/elX.png" class="stand-alone-logos" style="object-fit: none;">
-        <div class="flow showFlap" id="breakfast">
-            <div class="swiper-slide">
-                <div class="main-box">
-                    <img src="./assets/images/new-design/burgers.jpg" alt="" class="boxImg">
-
-                    <h3>Burgers</h3>
-                    <div class="ratings">
-                        ⭐⭐⭐⭐⭐
-                    </div>
-
-                    <div class="see-more">
-                       <a href="./menu.html"> See More >></a>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="main-box">
-                    <img src="./assets/images/new-design/biryani.jpg" alt="" class="boxImg">
-
-                    <h3>Biryani</h3>
-                    <div class="ratings">
-                        ⭐⭐⭐⭐⭐
-
-                    </div>
-
-                    <div class="see-more">
-                        <a href="./menu.html"> See More >></a>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="main-box">
-                    <img src="./assets/images/new-design/momo.jpg" alt="" class="boxImg">
-
-                    <h3>Momo</h3>
-                    <div class="ratings">
-                        ⭐⭐⭐⭐⭐
-                    </div>
-
-                    <div class="see-more">
-                        <a href="./menu.html"> See More >></a>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="main-box">
-                    <img src="./assets/images/new-design/desserts.jpg" alt="" class="boxImg">
-
-                    <h3>Desserts</h3>
-                    <div class="ratings">
-                        ⭐⭐⭐⭐⭐
-                    </div>
-
-                    <div class="see-more">
-                        <a href="./menu.html"> See More >></a>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="main-box">
-                    <img src="./assets/images/foodphotos/rolls.jpg" alt="" class="boxImg">
-
-                    <h3>Rolls</h3>
-                    <div class="ratings">
-                        ⭐⭐⭐⭐⭐
-                    </div>
-
-                    <div class="see-more">
-                        <a href="./menu.html"> See More >></a>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-        <!--Breakfast-->
-            <img src="./assets/images/swipe.svg" class="swiper">
 
     </section>
 <!-- ///Section El-Ton/// -->
-<section class="home-menu">
-    <div class="find-food reverse">
-        <img src="./assets/images/new-design/menuCard.svg">
-        <p class="easy">Lots to explore. <span style="color: red">less to spend.</span> </p>
-        <p class="exploreText">
-            Explore your favorite Non-Veg dishes all <span class="highlight">at ₹100</span>
-        </p>
+<div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link buttonStyle" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Veg<img src="./assets/images/logos/veggie.png" style="width: 50px;">
 
+          </button>
+        </h2>
+      </div>
+  
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+         <a href="./menu.html">
+            <h4><span><img src="./assets/images/logos/elEx-resize.png" style="width: 50px;"></span>ElEx </h4>
+        </a>
+       
+         </div>
+      </div>
     </div>
-    <img src="./assets/images/logos/elton-removebg-preview.png" class="stand-alone-logos">
-
-    <div class="flow showFlap reverse" id="breakfast">
-        <div class="swiper-slide">
-            <div class="main-box">
-                <img src="./assets/images/new-design/burgers.jpg" alt="" class="boxImg">
-
-                <h3>Burgers</h3>
-                <div class="ratings">
-                    ⭐⭐⭐⭐⭐
-                </div>
-
-                <div class="see-more">
-                   <a href="./menu.html"> See More >></a>
-                </div>
-            </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed buttonStyle" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Non-Veg<img src="./assets/images/logos/non.png" style="width: 40px;">
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+            <a href="./menu copy 2.html">
+                <h4><span><img src="./assets/images/logos/elEx-resize.png" style="width: 50px;"></span>ElEx </h4>
+            </a>
+            <a href="./menu copy.html">
+                <h4><span><img src="./assets/images/logos/elton-removebg-preview.png" style="width: 50px;"></span>Elton </h4> 
+            </a>
         </div>
-        <div class="swiper-slide">
-            <div class="main-box">
-                <img src="./assets/images/new-design/biryani.jpg" alt="" class="boxImg">
-
-                <h3>Biryani</h3>
-                <div class="ratings">
-                    ⭐⭐⭐⭐⭐
-
-                </div>
-
-                <div class="see-more">
-                    <a href="./menu.html"> See More >></a>
-                </div>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <div class="main-box">
-                <img src="./assets/images/new-design/momo.jpg" alt="" class="boxImg">
-
-                <h3>Momo</h3>
-                <div class="ratings">
-                    ⭐⭐⭐⭐⭐
-                </div>
-
-                <div class="see-more">
-                    <a href="./menu.html"> See More >></a>
-                </div>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <div class="main-box">
-                <img src="./assets/images/new-design/desserts.jpg" alt="" class="boxImg">
-
-                <h3>Desserts</h3>
-                <div class="ratings">
-                    ⭐⭐⭐⭐⭐
-                </div>
-
-                <div class="see-more">
-                    <a href="./menu.html"> See More >></a>
-                </div>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <div class="main-box">
-                <img src="./assets/images/foodphotos/rolls.jpg" alt="" class="boxImg">
-
-                <h3>Rolls</h3>
-                <div class="ratings">
-                    ⭐⭐⭐⭐⭐
-                </div>
-
-                <div class="see-more">
-                    <a href="./menu.html"> See More >></a>
-                </div>
-            </div>
-        </div>
-
-
+      </div>
     </div>
-    <!--Breakfast-->
-    <img src="./assets/images/swipe-left.svg" class="swiper">
 
-</section>
+  </div>
     <section class="whatsappSection">
         <div class="whatsapp-box">
             <div class="text">
@@ -441,8 +322,11 @@
     <!-- Swiper JS -->
     <script src="./main.js"></script>
     <!-- Initialize Swiper -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
         $('.slider-mega').slick({

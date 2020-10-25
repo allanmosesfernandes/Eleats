@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElEats</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/sass/main.scss">
+    <meta name="theme-color" content="#E40006">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" />
+
+
+</head>
+<style>
+.slick-initialized .slick-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: center;
+}
+
+.MenuImages .slick-initialized .slick-slide {
+    align-items: center !important;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <!-- <img class="hamburger" src="./assets/images/new-design/menu (2).png"> -->
+            <div class="menu__toggler"><span></span></div>
+            <a href="index.html">
+                <img class="logo" src="./assets/images/new-design/logo-final.png">
+            </a>         
+        
+        </nav>
+    </header>
+    <div class="menu">
+        <a href="./about.html">About</a>
+        <a href="#">Menu</a>
+        <a href="./about.html">Contact</a>
+
+      </div>
+    <section class="menu-page">
+        <div class="menu-mega">
+            
+       
+            <img src="./assets/images/tinified/1.png" style="width: 100%;">
+
+        </div>        
+        <div class="menu-mega">
+           <img src="./assets/images/tinified/2.png" style="width: 100%;">
+        </div>
+        <div class="menu-mega">
+            <img src="./assets/images/tinified/3.png" style="width: 100%;">
+        </div>
+        <div class="menu-mega">
+            <img src="./assets/images/tinified/4.png" style="width: 100%;">
+        </div>
+    </section>
+
+    <section class="whatsappSection">
+        <div class="whatsapp-box">
+            <div class="text">
+                <h5>
+                    Yay! We are now<br>
+                    on WhatsApp!
+                </h5>
+                <p>
+                    Place your order and come collect it directly at Ells!
+                </p>
+
+                <a href="https://api.whatsapp.com/send?phone=918291776175&text=Hey!%20I%20would%20like%20to%20place%20an%20order%20for">
+                    SUPER, I'M IN >>
+                </a>
+            </div>
+            <div>
+                <img src="./assets/images/online_store_.svg">
+            </div>
+        </div>
+    </section>
+
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.menu-page').slick({
+            centerPadding: '60px',
+            slidesToShow: 1,
+            responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        arrows: true,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        dots:true,
+                        arrows: true,
+                        autoplay: false,
+                    }
+                }
+            ]
+        });
+
+        $('.image-mega').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        });
+    </script>
+</body>
+</html>
